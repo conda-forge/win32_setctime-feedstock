@@ -1,5 +1,5 @@
 {% set name = "win32_setctime" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 47aa7c43548c1fc0a4f026d1944b748b37036df116c7c4cf908e82638d854313
+  sha256: 4e88556c32fdf47f64165a2180ba4552f8bb32c1103a2fafd05723a0bd42bd4b
 
 build:
   number: 0
