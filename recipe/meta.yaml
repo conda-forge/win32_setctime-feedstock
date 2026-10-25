@@ -1,13 +1,13 @@
 {% set name = "win32_setctime" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ae1fdf948f5640aae05c511ade119313fb6a30d7eabe25fef9764dca5873c4c0
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 077b35471bf1ff1d71e165c919ddc0cecf51b8e1802f5d820d33a96e2f6717dd
 
 build:
   number: 0
